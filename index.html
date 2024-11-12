@@ -3,54 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orbito</title>
+    <title>Orbito - Download Now</title>
     <style>
+        /* 기본 페이지 스타일 */
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f0f0f0;
+            background-color: #1c1c1c;
+            color: #e0e0e0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
             margin: 0;
-            padding: 0;
         }
+
+        /* 컨테이너 스타일 */
         .container {
+            text-align: center;
             max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
+            padding: 30px;
+            border-radius: 10px;
+            background: #333;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
         }
+
+        /* 제목과 설명 */
         h1 {
-            color: #333;
+            font-size: 2.5em;
+            color: #f9b233;
+            margin-bottom: 10px;
         }
-        img {
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            color: #b0b0b0;
+        }
+
+        /* 이미지 스타일 */
+        .game-image {
             width: 80%;
             height: auto;
-            border-radius: 10px;
-            margin-top: 20px;
+            border-radius: 15px;
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         }
+
+        /* 다운로드 버튼 */
         .download-link {
             display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: white;
+            padding: 12px 30px;
+            background-color: #f9b233;
+            color: #1c1c1c;
+            font-size: 1.2em;
             text-decoration: none;
             border-radius: 5px;
-            font-size: 18px;
+            margin-top: 20px;
+            transition: background-color 0.3s;
         }
+
         .download-link:hover {
-            background-color: #0056b3;
+            background-color: #d8921d;
         }
     </style>
 </head>
 <body>
 
 <div class="container">
+    <!-- 게임 이름과 설명 -->
     <h1>Orbito</h1>
-    <p>Experience an exciting adventure in Orbito! Download now and start playing.</p>
+    <p>Embark on a thrilling journey in Orbito! Download the app now and dive into an unforgettable adventure.</p>
     
-    <!-- 게임 이미지 -->
-   <img src="images/app icon.jpg" alt="Orbito Game App Icon">
+    <!-- 게임 메인 이미지 -->
+    <img src="images/app-icon.jpg" alt="Orbito App Icon" class="game-image">
 
-    <!-- 다운로드 링크 -->
+    <!-- 다운로드 버튼 -->
     <a href="https://play.google.com/store/apps/details?id=com.FoxTree.Orbito&pcampaignid=web_share" class="download-link">Download on Google Play</a>
 </div>
 
